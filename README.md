@@ -21,3 +21,8 @@
 
 1. Соберите образ `docker build --build-arg domain={domain} -t lampa . `
 2. Запустите контейнер `docker run -p 8080:80 -d --restart unless-stopped -it --name lampa lampa`
+
+Модуль "Кинозал" подключается по адресу:
+Ваш домен/kinozal.js
+либо
+Ваш IP/kinozal.js
