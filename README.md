@@ -26,5 +26,5 @@
 
 * Модуль "Кинозал"
 
-1. http://ВашДомен/kinozal.js
-2. http://ВашIP/kinozal.js
+1. http://test.ru/kinozal.js
+2. http://192.168.../kinozal.js
