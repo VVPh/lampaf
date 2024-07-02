@@ -25,5 +25,6 @@
 ## Подключение дополнительных модулей
 
 * Модуль "Кинозал"
-1. http://Ваш домен/kinozal.js
-2. http://Ваш IP/kinozal.js
+
+1. http://ВашДомен/kinozal.js
+2. http://ВашIP/kinozal.js
