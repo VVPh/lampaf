@@ -23,9 +23,10 @@
 1. Соберите образ `docker build --build-arg domain={domain} -t lampa . `
 2. Запустите контейнер `docker run -p 8080:80 -d --restart unless-stopped -it --name lampa lampa`
 
+Готовое решение: https://lampa.lobs.su/
+
 ## Подключение дополнительных модулей
 
 * Модуль "Кинозал" (просмотр фильмов и сериалов из источников наподобие IVI)
-
-1. http://test.ru/kinozal.js
+1. https://lampa.lobs.su/kinozal.js
 2. http://192.168.../kinozal.js
