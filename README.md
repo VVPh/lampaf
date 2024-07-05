@@ -5,6 +5,7 @@
 #### Устройства
 * Samsung Tizen
 * MSX
+* PC
 
 ## Установка для MSX
 #### Необходим свой хостинг или локальный веб-сервер. 
@@ -14,9 +15,11 @@
 4. Откройте MSX и выполните установку.
 
 ## Запуск в Docker'е
-1. Соберите образ `docker build --build-arg domain={domain} -t lampa . `
-2. Запустите контейнер `docker run -p 8080:80 -d --restart unless-stopped -it --name lampa lampa`
-3. Готовое решение: https://lampa.lobs.su/
+1. Соберите образ `docker build --build-arg domain={domain} -t lampaf . `
+2. Запустите контейнер `docker run -p 8080:80 -d --restart unless-stopped -it --name lampa lampaf`
+
+## Запуск на PC
+1. Открыть ссылку в любом обозревателе: https://lampa.lobs.su/
 
 ## Подключение дополнительных модулей
 #### Модуль "Кинозал" (просмотр фильмов и сериалов из источников наподобие IVI)
