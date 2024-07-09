@@ -3,6 +3,7 @@
 
 #### Устройства
 * Samsung Tizen
+* Версия для Android: https://github.com/lampa-app/LAMPA/releases/latest
 * MSX (Media Station X – находится в магазине приложений телевизора)
 * PC
 
