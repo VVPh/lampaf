@@ -22,7 +22,13 @@
 
 ## Подключение дополнительных модулей
 #### Модуль "Кинозал" (просмотр фильмов и сериалов из источников наподобие IVI)
-https://plugs.lobs.su/kinozal.js
+* https://plugs.lobs.su/kinozal.js
 
-#### Модуль каталогов поиска пиров для торрентов
-https://plugs.lobs.su/pubtorr.js
+#### Модуль "Публичные парсеры" (отображение каталогов поиска пиров для торрентов)
+* https://plugs.lobs.su/pubtorr.js
+
+#### Добавляет в меню пункт "Парсер"
+* https://plugs.lobs.su/etor.js
+
+#### Золотая Тема
+* https://plugs.lobs.su/gold_theme_.js
