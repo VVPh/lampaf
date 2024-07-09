@@ -22,5 +22,7 @@
 
 ## Подключение дополнительных модулей
 #### Модуль "Кинозал" (просмотр фильмов и сериалов из источников наподобие IVI)
-1. https://lampa.lobs.su/kinozal.js
-2. http://192.168.../kinozal.js
+https://plugs.lobs.su/kinozal.js
+
+#### Модуль каталогов поиска пиров для торрентов
+https://plugs.lobs.su/pubtorr.js
