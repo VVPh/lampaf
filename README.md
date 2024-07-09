@@ -18,7 +18,7 @@
 2. Запустите контейнер `docker run -p 8080:80 -d --restart unless-stopped -it --name lampa lampaf`
 
 ## Запуск на PC
-1. Открыть ссылку в любом обозревателе: https://lampa.lobs.su/
+* Открыть ссылку в любом обозревателе: https://lampa.lobs.su/
 
 ## Подключение дополнительных модулей
 #### Модуль "Кинозал" (просмотр фильмов и сериалов из источников наподобие IVI)
@@ -31,4 +31,4 @@
 * https://plugs.lobs.su/etor.js
 
 #### Золотая Тема
-* https://plugs.lobs.su/gold_theme_.js
+* https://plugs.lobs.su/gold_theme.js
