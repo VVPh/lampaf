@@ -2,7 +2,8 @@
 Приложение полностью бесплатное и использует публичные ссылки для просмотра информации о фильмах, новинках, популярных фильмов и т.д. Вся доступная информация используется исключительно в познавательных целях. Приложение не использует свои серверы для распространения информации.
 
 #### Устройства
-* Samsung Tizen: https://github.com/VVPh/lampaf/releases/latest
+* Samsung Tizen (Установка через Tizen Studio): https://github.com/VVPh/lampaf/releases/latest
+* LG WebOS (Установка через WebOS IDE): https://github.com/yumata/lampa/releases/download/v1.4.1/lampa_v1.4.1.ipk
 * Версия для Android: https://github.com/lampa-app/LAMPA/releases/latest
 * MSX (Media Station X – находится в магазине приложений телевизора)
 * PC
