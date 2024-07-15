@@ -22,6 +22,8 @@
 2. Запустите контейнер `docker run -p 8080:80 -d --restart unless-stopped -it --name lampa lampaf`
 
 ## Запуск на PC
+* Версия для macOS: https://cub.red/download/mac-os.zip
+* Версия для Windows: https://github.com/yumata/lampa/releases/download/v1.4.1/lampa-portable.zip
 * Открыть ссылку в любом обозревателе: https://lampa.lobs.su/
 
 ## Подключение дополнительных модулей
