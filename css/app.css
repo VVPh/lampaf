@@ -1026,6 +1026,134 @@ body.light--version .wrap__left {
             transform: translate3d(15em, 0, 0);
   }
 }
+@-webkit-keyframes logo-halloween-fire {
+  0% {
+    background: #FFEB3B;
+  }
+  10% {
+    background: #ffd13b;
+  }
+  14% {
+    background: #ffb73b;
+  }
+  25% {
+    background: #FFEB3B;
+  }
+  27% {
+    background: #fbea53;
+  }
+  50% {
+    background: #ffc13b;
+  }
+  58% {
+    background: #fbeb57;
+  }
+  80% {
+    background: #ffcb3b;
+  }
+  90% {
+    background: #fff493;
+  }
+  95% {
+    background: #fcaa38;
+  }
+}
+@-moz-keyframes logo-halloween-fire {
+  0% {
+    background: #FFEB3B;
+  }
+  10% {
+    background: #ffd13b;
+  }
+  14% {
+    background: #ffb73b;
+  }
+  25% {
+    background: #FFEB3B;
+  }
+  27% {
+    background: #fbea53;
+  }
+  50% {
+    background: #ffc13b;
+  }
+  58% {
+    background: #fbeb57;
+  }
+  80% {
+    background: #ffcb3b;
+  }
+  90% {
+    background: #fff493;
+  }
+  95% {
+    background: #fcaa38;
+  }
+}
+@-o-keyframes logo-halloween-fire {
+  0% {
+    background: #FFEB3B;
+  }
+  10% {
+    background: #ffd13b;
+  }
+  14% {
+    background: #ffb73b;
+  }
+  25% {
+    background: #FFEB3B;
+  }
+  27% {
+    background: #fbea53;
+  }
+  50% {
+    background: #ffc13b;
+  }
+  58% {
+    background: #fbeb57;
+  }
+  80% {
+    background: #ffcb3b;
+  }
+  90% {
+    background: #fff493;
+  }
+  95% {
+    background: #fcaa38;
+  }
+}
+@keyframes logo-halloween-fire {
+  0% {
+    background: #FFEB3B;
+  }
+  10% {
+    background: #ffd13b;
+  }
+  14% {
+    background: #ffb73b;
+  }
+  25% {
+    background: #FFEB3B;
+  }
+  27% {
+    background: #fbea53;
+  }
+  50% {
+    background: #ffc13b;
+  }
+  58% {
+    background: #fbeb57;
+  }
+  80% {
+    background: #ffcb3b;
+  }
+  90% {
+    background: #fff493;
+  }
+  95% {
+    background: #fcaa38;
+  }
+}
 .head {
   position: fixed;
   top: 0;
@@ -1052,6 +1180,38 @@ body.light--version .wrap__left {
       -ms-flex-negative: 0;
           flex-shrink: 0;
   margin-right: 1em;
+}
+.head__logo-halloween {
+  position: relative;
+  width: 2.7em;
+  height: 2.7em;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+  margin-right: 1em;
+}
+.head__logo-halloween-svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2.7em;
+  height: 2.7em;
+}
+.head__logo-halloween-svg svg {
+  width: 2.7em !important;
+  height: 2.7em !important;
+}
+.head__logo-halloween-fire {
+  position: absolute;
+  top: 0.9em;
+  left: 10%;
+  width: 80%;
+  bottom: 0.5em;
+  background: #FFEB3B;
+  -webkit-animation: logo-halloween-fire 5s ease infinite;
+     -moz-animation: logo-halloween-fire 5s ease infinite;
+       -o-animation: logo-halloween-fire 5s ease infinite;
+          animation: logo-halloween-fire 5s ease infinite;
 }
 .head__menu-icon {
   -webkit-flex-shrink: 0;
@@ -2029,10 +2189,10 @@ body.settings--open .settings__layer {
 .items-line__more {
   margin-left: 2em;
   padding: 0.4em 1em;
-  background: rgba(0, 0, 0, 0.33);
-  -webkit-border-radius: 0.3em;
-     -moz-border-radius: 0.3em;
-          border-radius: 0.3em;
+  background: rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 2em;
+     -moz-border-radius: 2em;
+          border-radius: 2em;
 }
 .items-line__more.focus {
   background-color: #fff;
@@ -3302,6 +3462,12 @@ body.card--no-cover .full-start__background {
   -webkit-transform: translate3d(0, 0, 0);
      -moz-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
+}
+.full-start-new__poster.with-out img {
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, color-stop(40%, white), to(rgba(255, 255, 255, 0)));
+  -webkit-mask-image: -webkit-linear-gradient(top, white 40%, rgba(255, 255, 255, 0) 100%);
+          mask-image: -webkit-gradient(linear, left top, left bottom, color-stop(40%, white), to(rgba(255, 255, 255, 0)));
+          mask-image: linear-gradient(to bottom, white 40%, rgba(255, 255, 255, 0) 100%);
 }
 @media screen and (max-width: 480px) {
   .full-start-new__poster {
@@ -12737,4 +12903,38 @@ body.glass--style-opacity--blacked .modal__content,
 body.glass--style-opacity--blacked .settings__content {
     background-color: #262829;
   }
+}
+body.glass--style.platform--browser .card .card__icons-inner,
+body.glass--style.platform--browser .card .card__marker,
+body.glass--style.platform--browser .card .card__vote,
+body.glass--style.platform--browser .card .card-watched, body.glass--style.platform--nw .card .card__icons-inner,
+body.glass--style.platform--nw .card .card__marker,
+body.glass--style.platform--nw .card .card__vote,
+body.glass--style.platform--nw .card .card-watched, body.glass--style.platform--apple .card .card__icons-inner,
+body.glass--style.platform--apple .card .card__marker,
+body.glass--style.platform--apple .card .card__vote,
+body.glass--style.platform--apple .card .card-watched {
+  background-color: rgba(0, 0, 0, 0.3);
+  -webkit-backdrop-filter: blur(1em);
+          backdrop-filter: blur(1em);
+}
+body.glass--style.platform--browser .card-watched__item, body.glass--style.platform--nw .card-watched__item, body.glass--style.platform--apple .card-watched__item {
+  color: #fff;
+}
+body.glass--style.platform--browser .card-watched__item:nth-child(2), body.glass--style.platform--nw .card-watched__item:nth-child(2), body.glass--style.platform--apple .card-watched__item:nth-child(2) {
+  opacity: 0.8;
+}
+body.glass--style.platform--browser .card-watched__item:nth-child(3), body.glass--style.platform--nw .card-watched__item:nth-child(3), body.glass--style.platform--apple .card-watched__item:nth-child(3) {
+  opacity: 0.6;
+}
+body.glass--style.platform--browser .card-watched__item:nth-child(4), body.glass--style.platform--nw .card-watched__item:nth-child(4), body.glass--style.platform--apple .card-watched__item:nth-child(4) {
+  opacity: 0.4;
+}
+body.glass--style.platform--browser .card-watched__item:nth-child(5), body.glass--style.platform--nw .card-watched__item:nth-child(5), body.glass--style.platform--apple .card-watched__item:nth-child(5) {
+  opacity: 0.2;
+}
+body.glass--style.platform--browser .head__action:not(.focus), body.glass--style.platform--nw .head__action:not(.focus), body.glass--style.platform--apple .head__action:not(.focus) {
+  background-color: rgba(0, 0, 0, 0.06);
+  -webkit-backdrop-filter: blur(1em);
+          backdrop-filter: blur(1em);
 }
