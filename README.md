@@ -23,21 +23,21 @@
 2. Запустите контейнер `docker run -p 8080:80 -d --restart unless-stopped -it --name lampa lampaf`
 
 ## Запуск на PC
-* Версия для macOS: https://cub.red/download/mac-os.zip
-* Версия для Windows: https://github.com/yumata/lampa/releases/download/v1.4.1/lampa-portable.zip
+* Версия для macOS: https://github.com/VVPh/lampaf/releases/download/v1.8.7/Lampa-macOS.zip
+* Версия для Windows: https://github.com/VVPh/lampaf/releases/download/v1.8.7/Lampa-Windows.zip
 * Открыть ссылку в любом обозревателе: https://lampa.lobs.su/
 
 ## Подключение дополнительных модулей
-#### Модуль "Кинозал" (просмотр фильмов и сериалов из источников наподобие IVI)
+### Модуль "Кинозал" (просмотр фильмов и сериалов из источников наподобие IVI)
 * https://plugs.lobs.su/kinozal.js
 * https://plugs.lobs.su/kinozal1.js
 
-#### Модуль "Публичные парсеры" (отображение каталогов поиска пиров для торрентов)
+### Модуль "Публичные парсеры" (отображение каталогов поиска пиров для торрентов)
 Парсеры служат посредниками между Лампой и торрент-порталами. Без них просмотр фильмов, сериалов и прочего НЕВОЗМОЖЕН.
 * https://plugs.lobs.su/pubtorr.js
 
-#### Добавляет в меню пункт "Парсер" (если нет этого пункта)
+### Добавляет в меню пункт "Парсер" (если нет этого пункта)
 * https://plugs.lobs.su/etor.js
 
-#### Золотая Тема
+### Золотая Тема
 * https://plugs.lobs.su/gold_theme.js
