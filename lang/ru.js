@@ -88,7 +88,7 @@ export default {
     settings_interface_performance: 'Быстродействие',
     settings_interface_animation: 'Анимация',
     settings_interface_advanced_animation: 'Продвинутая анимация',
-    settings_interface_animation_descr: 'Оживление карточек и контента',
+    settings_interface_animation_descr: 'Оживление карточек и содержимого',
     settings_interface_attenuation: 'Затухание',
     settings_interface_attenuation_descr: 'Плавное затухание карточек снизу и сверху',
     settings_interface_scroll: 'Тип прокрутки',
