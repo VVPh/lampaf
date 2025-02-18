@@ -1134,4 +1134,37 @@ export default {
     settings_interface_sound_play: 'Преходи',
     settings_interface_sound_level: 'Ниво на звука',
     settings_interface_advanced_animation: 'Разширена анимация',
+
+    confirm_open_player: 'Друго устройство иска достъп до плейъра. Искате ли да пуснете видеоклипа?',
+
+    pincode_use_remote: 'Използвайте дистанционното управление, за да въведете кода, като натиснете стрелките, за да изберете желания номер.',
+    pincode_use_toggle: 'Натиснете и задръжте бутона OK, за да промените оформлението.',
+
+    settings_parental_control_where: 'Къде да поискате ПИН код',
+    title_fire: 'Огън!',
+    title_top_100: 'Топ 100',
+
+    player_normalization_type_title: 'Тип нормализация',
+    player_normalization_type_all: 'Всички',
+    player_normalization_type_up: 'Само увеличаване',
+    player_normalization_type_down: 'Само намаляване',
+    storage_quota_exceeded: 'Надхвърлен е лимитът за съхранение. Изтрийте кеша и опитайте отново.',
+    settings_cub_domain: 'Основен домейн',
+
+    title_ai_assistant: 'AI-асистент',
+    title_facts: 'Интересни факти',
+    ai_search_start_typing: 'Попитайте AI-асистента кои филми искате да намерите. Например: "Филми за космоса"',
+    ai_search_limit: 'Лимитът на заявките е надвишен. Опитайте отново по-късно. С абонамент за CUB Premium лимитите ще бъдат увеличени и няма да се налага да чакате!',
+    ai_subscribe_title: 'Отключете повече възможности с AI',
+    ai_subscribe_descr: 'Абонирайте се за CUB Premium и увеличете броя на заявките към AI. С AI ще ви предложим най-добрите филми, които можем да намерим.',
+
+    dmca_title: 'Съдържанието е блокирано',
+    dmca_descr: 'Този материал не е достъпен за гледане. Беше блокиран по искане на притежателя на авторските права в съответствие със закона за авторското право.',
+
+    loading_progress_step_0: 'Подготовка',
+    loading_progress_step_1: 'Зареждане на езици',
+    loading_progress_step_2: 'Търсене на огледала',
+    loading_progress_step_3: 'Подготовка на разширения',
+    loading_progress_step_4: 'Остава малко',
+    loading_progress_step_5: 'Скоро готово'
 }

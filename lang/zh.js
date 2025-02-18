@@ -1085,4 +1085,37 @@ export default {
     settings_interface_sound_play: '过渡',
     settings_interface_sound_level: '音量级别',
     settings_interface_advanced_animation: '高级动画',
+
+    confirm_open_player: '另一台设备正在请求访问播放器。想播放视频吗？',
+
+    pincode_use_remote: '使用遥控器输入代码，按箭头选择所需的号码。',
+    pincode_use_toggle: '按住“确定”按钮可更改布局。',
+
+    settings_parental_control_where: '在哪里请求 PIN 码',
+    title_fire: '火！',
+    title_top_100: '前100名',
+
+    player_normalization_type_title: '标准化类型',
+    player_normalization_type_all: '全部',
+    player_normalization_type_up: '仅提升',
+    player_normalization_type_down: '仅降低',
+    storage_quota_exceeded: '存储配额已超出。清除缓存后重试。',
+    settings_cub_domain: '主域',
+
+    title_ai_assistant: 'AI助手',
+    title_facts: '有趣的事实',
+    ai_search_start_typing: '向AI助手询问您想查找的电影。例如：“关于太空的电影”',
+    ai_search_limit: '请求次数已超出限制。请稍后再试。有了CUB Premium订阅，请求限制将增加，您无需等待！',
+    ai_subscribe_title: '解锁更多AI功能',
+    ai_subscribe_descr: '订阅CUB Premium，增加与AI的交互请求次数。与AI一起，我们将为您推荐最佳电影。',
+
+    dmca_title: '内容被阻止',
+    dmca_descr: '该材料无法查看。该视频是根据版权法依据版权所有者的要求而被屏蔽的。',
+
+    loading_progress_step_0: '准备',
+    loading_progress_step_1: '加载语言',
+    loading_progress_step_2: '搜索镜像',
+    loading_progress_step_3: '准备扩展',
+    loading_progress_step_4: '快完成了',
+    loading_progress_step_5: '即将完成'
 }

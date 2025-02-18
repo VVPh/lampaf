@@ -1120,4 +1120,38 @@ export default {
     settings_interface_sound_play: 'Transições',
     settings_interface_sound_level: 'Nível de volume',
     settings_interface_advanced_animation: 'Animação Avançada',
+
+    confirm_open_player: 'Outro dispositivo está solicitando acesso ao player. Quer reproduzir o vídeo?',
+
+    pincode_use_remote: 'Utilize o comando para introduzir o código, premindo as setas para selecionar o número pretendido.',
+    pincode_use_toggle: 'Prima e mantenha premido o botão OK para alterar o layout.',
+
+    settings_parental_control_where: 'Onde solicitar um código PIN',
+    title_fire: 'Fogo!',
+    title_top_100: '100 melhores',
+
+    player_normalization_type_title: 'Tipo de Normalização',
+    player_normalization_type_all: 'Todos',
+    player_normalization_type_up: 'Apenas Aumento',
+    player_normalization_type_down: 'Apenas Diminuição',
+    storage_quota_exceeded: 'Limite de armazenamento excedido. Limpe o cache e tente novamente.',
+    settings_cub_domain: 'Domínio primário',
+
+    title_ai_assistant: 'Assistente de IA',
+    title_facts: 'Fatos Interessantes',
+    ai_search_start_typing: 'Pergunte ao Assistente de IA quais filmes você deseja encontrar. Por exemplo: "Filmes sobre o espaço"',
+    ai_search_limit: 'Limite de solicitações excedido. Tente novamente mais tarde. Com a assinatura CUB Premium, os limites serão aumentados e você não precisará esperar!',
+    ai_subscribe_title: 'Desbloqueie mais possibilidades com a IA',
+    ai_subscribe_descr: 'Assine o CUB Premium e aumente o número de solicitações para a IA. Junto com a IA, encontraremos os melhores filmes para você.',
+
+    dmca_title: 'Conteúdo bloqueado',
+    dmca_descr: 'Este material não está disponível para visualização. Foi bloqueado a pedido do detentor dos direitos autorais, de acordo com a lei de direitos autorais.',
+
+    loading_progress_step_0: 'Preparação',
+    loading_progress_step_1: 'Carregando idiomas',
+    loading_progress_step_2: 'Procurando espelhos',
+    loading_progress_step_3: 'Preparando extensões',
+    loading_progress_step_4: 'Quase pronto',
+    loading_progress_step_5: 'Chegando em breve'
+
 }
