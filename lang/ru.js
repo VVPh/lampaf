@@ -179,7 +179,7 @@ export default {
     settings_parser_search_descr: 'На каком языке производить поиск?',
     settings_parser_in_search: 'Парсер в поиске',
     settings_parser_in_search_descr: 'Показывать результаты в поиске?',
-    settings_parser_timeout_title: 'Лимит времени парсера',
+    settings_parser_timeout_title: 'Лимит времени анализатора',
     settings_parser_timeout_descr: 'Время (в секундах) ожидания ответа от сервера',
 
     settings_player_type: 'Тип проигрывателя',
