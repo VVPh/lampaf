@@ -811,6 +811,7 @@ export default {
 
     settings_param_player_inner: 'Встроенный',
     settings_param_player_outside: 'Внешний',
+    settings_param_player_inner_tvos: 'Встроенный',
     settings_param_yes: 'Да',
     settings_param_no: 'Нет',
     settings_param_interface_size_small: 'Меньше',
@@ -943,7 +944,7 @@ export default {
     notice_new_quality: 'Доступно новое качество',
     notice_quality: 'Качество',
     notice_new_episode: 'Новая серия',
-    notice_none: 'У вас еще нет никаких уведомлений, зарегистрируйтесь на сайте <b>www.cub.red</b>, чтобы следить за новыми сериями и релизами.',
+    notice_none: 'У вас еще нет никаких уведомлений, зарегистрируйтесь на сайте <b>{site}</b>, чтобы следить за новыми сериями и релизами.',
     notice_in_quality: 'В качестве',
     notice_none_account: 'У вас еще нет никаких уведомлений, добавьте сериалы в закладки и ожидайте уведомления о новых сериях.',
     notice_none_system: 'На данный момент у вас отсутствуют уведомления. Мы обязательно оповестим вас, когда появятся новые уведомления.',
@@ -972,10 +973,10 @@ export default {
     account_import_fail: 'Ошибка при импорте',
     account_imported: 'импортировано',
     account_reload_after: 'перезагрузка через 5 сек.',
-    account_create: 'Откройте больше возможностей с аккаунтом CUB. Зарегистрируйтесь на сайте <span class="account-modal__site">www.cub.red</span> и получите доступ к синхронизации ваших закладок, временных кодов и других возможностей аккаунта CUB.',
+    account_create: 'Откройте больше возможностей с кабинетом CUB. Зарегистрируйтесь на сайте <span class="account-modal__site">{site}</span> и получите доступ к синхронизации ваших закладок, временных кодов и других возможностей кабинета CUB.',
     account_premium: 'Раскройте новые горизонты с аккаунтом CUB Premium! Наслаждайтесь увеличенными лимитами и обогащенным функционалом сервиса. Дополнительные возможности ждут вас уже сегодня!',
     account_premium_more: 'Подробнее о CUB Premium',
-    account_limited: 'Вы достигли максимального лимита. Увеличьте лимит с аккаунтом CUB Premium. Подробнее на сайте <span class="account-modal__site">www.cub.red/premium</span>',
+    account_limited: 'Вы достигли максимального лимита. Увеличьте лимит с CUB Premium. Подробнее на сайте <span class="account-modal__site">{site}/premium</span>',
     account_premium_include_1: 'Увеличение количество закладок',
     account_premium_include_2: 'Увеличение истории просмотров',
     account_premium_include_3: 'Увеличение количество временных кодов',
@@ -991,7 +992,7 @@ export default {
     account_code_enter: 'Введите шестизначный код',
     account_code_error: 'Возможно, вы ввели неверный или устаревший код',
     account_code_wrong: 'Возможно, вы указали неверный формат',
-    account_code_where: 'Перейдите на сайт <span class="account-add-device__site">cub.red/add</span> и введите указанный там код.',
+    account_code_where: 'Перейдите на сайт <span class="account-add-device__site">{site}/add</span> и введите указанный там код.',
     account_code_input: 'Ввести код',
 
 
@@ -1119,7 +1120,7 @@ export default {
 
     https_text: 'Вы используйте протокол HTTPS, c которым Lampa работает некорректно. Для корректной работы приложения используйте адрес с протоколом HTTP',
 
-    premiere_author_recomend_1: 'Закажите пиццу и готовьтесь.',
+    premiere_author_recomend_1: 'Закажите пиццу и наслаждайтесь.',
     premiere_author_recomend_2: 'Вечеринка только начинается.',
     premiere_author_recomend_3: 'Подготовьтесь к адреналину.',
     premiere_author_recomend_4: 'Готовы к незабываемому вечеру?',
