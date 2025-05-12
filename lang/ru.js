@@ -309,7 +309,7 @@ export default {
     torrent_item_bitrate: 'Битрейт',
     torrent_item_seeds: 'Раздают',
     torrent_item_grabs: 'Качают',
-    torrent_item_mb: 'Мбит/с',
+    torrent_item_mb: 'мБит/с',
 
     torrent_serial_episode: 'Серия',
     torrent_serial_season: 'Сезон',
